@@ -1,0 +1,55 @@
+.page-WhyFairmint.ui.grid {
+  .ui.card {
+    width: 100%;
+    .content {
+      padding: 0.8em 0 0.7em;
+      .header {
+        font-size: 16px;
+      }
+    }
+  }
+  .card-large-padding {
+    padding: 10px 26px 10px;
+  }
+  .column-stacked {
+    flex-flow: column wrap !important;
+    height: 1650px;
+  }
+  & > .row.column-stacked > .column {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .card-large-padding {
+      padding: 14px 26px 18px;
+    }
+    .column-stacked {
+      height: 1720px;
+    }
+    .ui.card {
+      .content {
+        padding: 0.8em 0;
+        .header {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .card-large-padding {
+      padding: 0 0 10px;
+      box-shadow: none;
+    }
+    .column-stacked {
+      height: auto;
+    }
+    .ui.card {
+      .content {
+        padding: 0.8em 0;
+        .header {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+}

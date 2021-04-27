@@ -1,0 +1,16 @@
+{
+	"portfolio": [
+		{
+			"currency":"FAIR",
+			"currency_icon":"",
+			"nb": 252.5253,
+			"dollar_value": 5023.37
+		},
+		{
+			"currency":"USD (coin)",
+			"currency_icon":"",
+			"nb": 5000.00,
+			"dollar_value": 5000.00
+		}
+	]
+}

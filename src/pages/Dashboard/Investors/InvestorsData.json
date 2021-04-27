@@ -1,0 +1,275 @@
+{
+  "total_investors"     : 107,
+  "investors_highlight" : [
+    {
+      "name"   : "Adam Draper",
+      "url"     : "https://twitter.com/AdamDraper",
+      "picture" : "https://pbs.twimg.com/profile_images/610324356745465856/LA-1B60F_400x400.jpg",
+      "bio"     : "Boost VC - partner"
+    },
+    {
+      "name"    : "Dan Elitzer",
+      "url"     : "https://twitter.com/delitzer",
+      "picture" : "https://pbs.twimg.com/profile_images/529095245103763456/_-y0PMBk_400x400.jpeg",
+      "bio"     : "IDEO CoLab - partner"
+    },
+    {
+     "name"   : "Philipp Moehring",
+      "url"     : "https://twitter.com/pmoe",
+      "picture" : "https://pbs.twimg.com/profile_images/1122981769203073024/ofmS1tm5_400x400.png",
+      "bio"     : "TinyVC (AngelList) - partner"
+    },
+    {
+      "name"    : "Solomon Hykes",
+      "url"     : "https://twitter.com/solomonstre",
+      "picture" : "https://pbs.twimg.com/profile_images/1148186197296070657/ow43KBGn_400x400.jpg",
+      "bio"     : "Docker - co-founder"
+    },
+    {
+      "name"    : "Niamh Gavin",
+      "url"     : "https://www.linkedin.com/in/niamhgavin/",
+      "picture" : "https://media.licdn.com/dms/image/C5603AQENSVKJl6_6OA/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=viqimZRhALIAP9SqPdfpBGntfm4SgOEr2aMys_cWylk",
+      "bio"     : "Adviser"
+    },
+    {
+      "name"    : "Thibauld Favre",
+      "url"     : "https://twitter.com/thibauld",
+      "picture" : "https://pbs.twimg.com/profile_images/1155561772700639232/gN4FS4_R_400x400.jpg",
+      "bio"     : "Fairmint - co-founder"
+    },
+    {
+      "name"    : "Joris Delanoue",
+      "url"     : "https://twitter.com/joris_paris",
+      "picture" : "https://pbs.twimg.com/profile_images/1072493385049624579/3rvqQrej_400x400.jpg",
+      "bio"     : "Fairmint - co-founder"
+    },
+    {
+      "name"    : "Cyril Paglino",
+      "url"     : "https://twitter.com/cyrilpaglino",
+      "picture" : "https://pbs.twimg.com/profile_images/935237155865034752/d6qlkNPY_400x400.jpg",
+      "bio"     : "Starchain Capital - partner"
+    },
+    {
+      "name"    : "Marie Ekeland",
+      "url"     : "https://twitter.com/bibicheri",
+      "picture" : "https://media.licdn.com/dms/image/C5603AQEtW6B0qeB2jw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=es5tl91BK5bwxDn2K6WyD6_T91K6V4fpX2FZbds8a1Y",
+      "bio"     : "Daphni - partner"
+    },
+    {
+      "name"    : "Pascal Levy-Garboua",
+      "url"     : "https://twitter.com/2pasc",
+      "picture" : "https://pbs.twimg.com/profile_images/645454076486914048/VBiDfsa2_400x400.jpg",
+      "bio"     : "Weave Capital - partner"
+    },
+    {
+      "name"    : "Thomas France",
+      "url"     : "https://twitter.com/totofrance",
+      "picture" : "https://pbs.twimg.com/profile_images/895192622637223936/x2bWMR-x_400x400.jpg",
+      "bio"     : "Ledger - co-founder"
+    },
+    {
+      "name"    : "Julien Barbier",
+      "url"     : "https://twitter.com/julienbarbier42",
+      "picture" : "https://pbs.twimg.com/profile_images/656781064489345029/6dngTeSR_400x400.jpg",
+      "bio"     : "Holberton School - co-founder"
+    },
+    {
+      "name"    : "Sylvain Kalache",
+      "url"     : "https://twitter.com/SylvainKalache",
+      "picture" : "https://pbs.twimg.com/profile_images/1058559736868552705/2SsENdtA_400x400.jpg",
+      "bio"     : "Holberton School - co-founder"
+    },
+    {
+      "name"    : "Tara Tan",
+      "url"     : "https://twitter.com/taratan",
+      "picture" : "https://pbs.twimg.com/profile_images/1039592860369051648/1VgX8QIg_400x400.jpg",
+      "bio"     : "IDEO CoLab - partner"
+    },
+    {
+      "name"    : "Ian Lee",
+      "url"     : "https://twitter.com/ianjohnlee",
+      "picture" : "https://pbs.twimg.com/profile_images/1038501414677278720/MDOF9WmH_400x400.jpg",
+      "bio"     : "IDEO CoLab - partner"
+    },
+    {
+      "name"    : "Gavin McDermott",
+      "url"     : "https://twitter.com/GavinMcDermott",
+      "picture" : "https://pbs.twimg.com/profile_images/733446848111726592/S-pKbFyJ_400x400.jpg",
+      "bio"     : "IDEO CoLab - partner"
+    },
+    {
+      "name"    : "Brayton Williams",
+      "url"     : "https://twitter.com/BraytonKey",
+      "picture" : "https://pbs.twimg.com/profile_images/463829126520918016/k-XfUAtc_400x400.jpeg",
+      "bio"     : "Boost VC - partner"
+    },
+    {
+      "name"    : "Andy Chung",
+      "url"     : "https://twitter.com/andychung",
+      "picture" : "https://pbs.twimg.com/profile_images/1117376118389186562/BQjjRgcx_400x400.jpg",
+      "bio"     : "Tiny VC - partner"
+    },
+    {
+      "name"    : "Andrea Riom",
+      "url"     : "https://twitter.com/andreariom",
+      "picture" : "https://pbs.twimg.com/profile_images/1048339356266745857/82ogXnA-_400x400.jpg",
+      "bio"     : "Starchain Capital - partner"
+    },
+    {
+      "name"    : "Jean-Baptiste Hironde",
+      "url"     : "https://twitter.com/JBHiro",
+      "picture" : "https://pbs.twimg.com/profile_images/684577441264697344/YfCLOl8C_400x400.jpg",
+      "bio"     : "MWM - founder"
+    },
+    {
+      "name"    : "Marc-David Choukroun",
+      "url"     : "https://twitter.com/mdchouk",
+      "picture" : "https://pbs.twimg.com/profile_images/681803891223183360/cCFm74Pg_400x400.jpg",
+      "bio"     : "La Ruche Qui Dit Oui - co-founder"
+    },
+    {
+      "name"    : "Nicolas Debock",
+      "url"     : "https://twitter.com/ndebock",
+      "picture" : "https://media.licdn.com/dms/image/C4E03AQFwFywdcgys7w/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=j5sAAW8lcndvf0ZvE-qAynB0XPLULd1uzxeyWPVZpsQ",
+      "bio"     : "Idinvest - managing director"
+    },
+    {
+      "name"    : "Réda Berrehili",
+      "url"     : "https://twitter.com/berrehili",
+      "picture" : "https://pbs.twimg.com/profile_images/1101064894894538752/Mp8ZjbBp_400x400.png",
+      "bio"     : "Onefinestay - CTO"
+    },
+    {
+      "name"    : "Serge Alleyne",
+      "url"     : "https://twitter.com/salleyne",
+      "picture" : "https://pbs.twimg.com/profile_images/773172521797574656/_7CcpRFB_400x400.jpg",
+      "bio"     : "Shipfix - co-founder"
+    },
+    {
+      "name"    : "Florent Artaud",
+      "url"     : "https://twitter.com/flowartd",
+      "picture" : "https://pbs.twimg.com/profile_images/784001605498699776/xTXrSesE_400x400.jpg",
+      "bio"     : "Shipfix - co-founder"
+    },
+    {
+      "name"    : "Oussama Ammar",
+      "url"     : "https://twitter.com/daedalium",
+      "picture" : "https://pbs.twimg.com/profile_images/3462070349/580cd5dd2462d3526d716378aaef695d_400x400.jpeg",
+      "bio"     : "The Family - co-founder"
+    },
+    {
+      "name"    : "Alice Zagury",
+      "url"     : "https://twitter.com/Alice_zag",
+      "picture" : "https://pbs.twimg.com/profile_images/1050958567/Capture_d__cran_2010-06-18___02.33.33_400x400.png",
+      "bio"     : "The Family - co-founder"
+    },
+    {
+      "name"    : "Nicolas Colin",
+      "url"     : "https://twitter.com//Nicolas_Colin",
+      "picture" : "https://pbs.twimg.com/profile_images/1365618354/Nicolas_400x400.jpg",
+      "bio"     : "The Family - co-founder"
+    },
+    {
+      "name"    : "David Fauchier",
+      "url"     : "https://twitter.com/dfauchier",
+      "picture" : "https://pbs.twimg.com/profile_images/531856928662487040/qEwprLhN_400x400.jpeg",
+      "bio"     : "Cambrial Capital - partner"
+    },
+    {
+      "name"    : "Maxime Pruvost",
+      "url"     : "https://twitter.com/maxpruv",
+      "picture" : "https://pbs.twimg.com/profile_images/961383331064459264/Lep_TSBc_reasonably_small.jpg",
+      "bio"     : "Carts Guru - co-founder"
+    },
+    {
+      "name"    : "Kyle Hall",
+      "url"     : "https://twitter.com/kmhall82",
+      "picture" : "https://pbs.twimg.com/profile_images/698179303687720960/6ti_1ke6_400x400.jpg",
+      "bio"     : "The Family"
+    },
+    {
+      "name"    : "Pietro Invernizzi",
+      "url"     : "https://twitter.com/pinverrr",
+      "picture" : "https://pbs.twimg.com/profile_images/1116799242985586688/RVU0-R8M_400x400.png",
+      "bio"     : "The Family"
+    },
+    {
+      "name"    : "Mathias Pastor",
+      "url"     : "https://twitter.com/pastormhm",
+      "picture" : "https://pbs.twimg.com/profile_images/950388142602948608/IuvMakJI_400x400.jpg",
+      "bio"     : "The Family - Director"
+    },
+    {
+      "name"    : "Adrien Guilmineau",
+      "url"     : "https://twitter.com/aguilmineau",
+      "picture" : "https://pbs.twimg.com/profile_images/1136932821547794432/WSoqLvrx_400x400.jpg",
+      "bio"     : "Sidekick - co-founder"
+    },
+    {
+      "name"    : "Younes Rharbaoui",
+      "url"     : "https://twitter.com/younesrharbaoui",
+      "picture" : "https://pbs.twimg.com/profile_images/990922405404205056/ljg-dBHi_400x400.jpg",
+      "bio"     : "Lion - dean"
+    },
+    {
+      "name"    : "Thomson Nguyen",
+      "url"     : "https://twitter.com/itsthomson",
+      "picture" : "https://pbs.twimg.com/profile_images/616534066767093760/KrRsM7gq_400x400.jpg",
+      "bio"     : "Sakura - co-founder"
+    },
+    {
+      "name"    : "Julien Genestoux",
+      "url"     : "https://twitter.com/julien51",
+      "picture" : "https://pbs.twimg.com/profile_images/425183656487841792/oI17U1UR_400x400.jpeg",
+      "bio"     : "Unlock protocol - co-founder"
+    },
+    {
+      "name"    : "Nicolas Burtey",
+      "url"     : "https://twitter.com/nicolasburtey",
+      "picture" : "https://pbs.twimg.com/profile_images/1013988070771707904/UAQ3zldj_400x400.jpg",
+      "bio"     : "Galoy - co-founder"
+    },
+    {
+      "name"    : "Julien Chiavas",
+      "url"     : "https://twitter.com/jchiavas",
+      "picture" : "https://media.licdn.com/dms/image/C5603AQFb6hId17PatQ/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=WS-dJX2JPGKRer0MK1_hm7isb7_fzREuJgUY0Vh9gD8",
+      "bio"     : "Vanguard Hub - co-founder"
+    },
+    {
+      "name"    : "Thibault Drillon",
+      "url"     : "https://www.linkedin.com/in/thibault-drillon-9a99b69a/",
+      "picture" : "https://media.licdn.com/dms/image/C4E03AQHCQXoxXmNdfA/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=YqHblNx116ZMJj2A-sSsGSPFDddp6YywbWEe2JIXLfU",
+      "bio"     : "Total - oil trader"
+    },
+    {
+      "name"    : "David Bachelier",
+      "url"     : "https://www.linkedin.com/in/david-bachelier/",
+      "picture" : "https://media.licdn.com/dms/image/C5103AQHj5W33t-de6A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=BwiEToJpdf4Id01cCpqx2zanUuTS1WPFQLuDRVMDQx4",
+      "bio"     : "Capitalab - co-founder"
+    },
+    {
+      "name"    : "Marc Simon",
+      "url"     : "https://twitter.com/marcsimon42",
+      "picture" : "https://pbs.twimg.com/profile_images/466679191811805184/mB0CPF68_400x400.jpeg",
+      "bio"     : "Angel investor"
+    },
+    {
+      "name"    : "Barthélémy Pallu de Beaupuy",
+      "url"     : "https://www.linkedin.com/in/barth%25C3%25A9l%25C3%25A9my-pallu-de-beaupuy-58a14b/",
+      "picture" : "https://media.licdn.com/dms/image/C5103AQG9Vpy_3NLSKg/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=dL5P-zq6tpAjrhoJMEmHubszHjdLMJLu8R9hMCc93Vo",
+      "bio"     : "Committed Advisors - partner"
+    },
+    {
+      "name"    : "Olivier Bret",
+      "url"     : "https://www.linkedin.com/in/obret/",
+      "picture" : "https://media.licdn.com/dms/image/C5103AQHOc8_MuLJNGg/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=KfTohdM--xrZAYlzXNXSmx67X8ixeuRTQYsoMs_uWCs",
+      "bio"     : "Angel investor"
+    },
+    {
+      "name"    : "Arthur Katz",
+      "url"     : "https://www.linkedin.com/in/arthur-katz-9a2a662b/",
+      "picture" : "https://media.licdn.com/dms/image/C5603AQFRHeBg3CS7cQ/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=V71XAHYHoZBhzHjJ8rQt0QllWVIDFR8VP4dU4jMdXQQ",
+      "bio"     : "Angel investor"
+    }
+  ]
+}

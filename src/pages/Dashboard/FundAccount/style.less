@@ -1,0 +1,95 @@
+.fund-account-box {
+  margin: 0 0 !important;
+  z-index: 100;
+  overflow: visible;
+
+  & > .content {
+    padding: 0 !important;
+    position: relative;
+    .header {
+      padding: 22px 26px 0;
+      font-size: 26px !important;
+      line-height: 30px !important;
+      letter-spacing: 0 !important;
+      color: #202020;
+      @media (max-width: 600px) {
+        display: -webkit-box;
+        display: flex !important;
+        flex-direction: column;
+        padding: 0;
+      }
+    }
+    .description {
+      margin: 0;
+      .content {
+        padding: 0 26px;
+        position: relative;
+        p {
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0.5px;
+          font-weight: 500;
+          color: #202020;
+          margin-bottom: 1.2em;
+        }
+        button {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0.8em 2em;
+        }
+      }
+      img {
+        width: 100%;
+        height: 250px;
+        margin-top: -50px;
+      }
+      
+      @media (min-width: 993px) and (max-width: 1220px) {
+        margin: 0;
+        .content {
+          p {
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            margin-bottom: 1em;
+          }
+          button {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0.8em 2em;
+          }
+        }
+        img {
+          width: 100%;
+          height: 250px;
+          margin-top: -50px;
+        }
+      }
+      @media (max-width: 600px) {
+        margin-top: 0.5em !important;
+        .content {
+          padding: 0;
+          p {
+            font-size: 14px;
+            line-height: 24px;
+            width: 280px;
+            top: calc(80px + -5em);
+            left: 20px;
+          }
+          img {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    margin: -20px !important;
+
+    & > .content {
+      padding: 1em !important;
+    }
+  }
+}

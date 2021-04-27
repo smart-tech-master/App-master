@@ -1,0 +1,125 @@
+.get-started-card {
+  background-image: url(../../../assets/images/green-circle.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left -60px;
+  background-size: 16% auto;
+
+  .ui.grid {
+    flex-direction: row;
+    display: -webkit-box;
+    display: flex;
+    overflow: hidden;
+    padding: 150px 0px 100px;
+
+
+    .right {
+      width: 50%;
+      position: relative;
+      border-radius: 0px !important;
+      background-image: url(../../../assets/images/founders-frame.svg);
+      background-repeat: no-repeat;
+      background-position: bottom -10% right -20%;
+      background-size: 60% auto;
+
+      img.ui.image {
+        width: 90%;
+        margin-left: 5%;
+      }
+      @media (max-width: 600px) {
+        width: 100%;
+        border-radius: 8px !important;
+        height: 85vw;
+        padding: 15px 0;
+      }
+    }
+    .left {
+      width: 50%;
+      border-top: none;
+      display: -webkit-box;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-right: 80px !important;
+
+      .header {
+        font-size: 52px !important;
+        line-height: 64px;
+        letter-spacing: 0.5px;
+        color: #3D454D;
+        font-weight: 600 !important;
+      }
+      .desc {
+        margin: 1em 40px 2em 0;
+        line-height: 28px;
+        color: #5F5F5F;
+        font-size: 16px;
+      }
+      .get-started-btn {
+        font-weight: 600;
+        border: 2px solid #00D1C1;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 256px;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 1em;
+      }
+      @media (min-width: 993px) and (max-width: 1220px) {
+        padding-left: 0 !important;
+        padding-right: 40px !important;
+
+        .header {
+          font-size: 32px !important;
+          line-height: 44px;
+        }
+        .desc {
+          margin: 1em 0 3em;
+        }
+        .get-started-btn {
+          font-size: 14px;
+          width: 240px;
+        }
+      }
+      @media (max-width: 600px) {
+        width: 100%;
+        padding: 4em 1em 1em !important;
+        .header {
+          font-size: 28px !important;
+          line-height: 40px !important;
+          text-align: center;
+          letter-spacing: 2px;
+        }
+        .desc {
+          font-size: 14px;
+          line-height: 24px;
+          text-align: center;
+          color: #7E7E7E;
+          padding: 0 1em;
+          margin: 0;
+        }
+        .get-started-btn {
+          padding: 0.8em;
+          width: 100%;
+          font-size: 14px;
+          margin-top: 32px;
+        }
+      }
+    }
+
+    @media (min-width: 993px) and (max-width: 1220px) {
+      padding: 150px 0px 70px;
+    }
+
+    @media (max-width: 600px) {
+      flex-direction: column-reverse;
+      height: auto;
+      box-shadow: none;
+      padding: 90px 0px 10px;
+
+      background-position: top 12% left;
+      background-size: 18% auto;
+      background-image: url(../../../assets/images/blue-circle.svg);
+      background-repeat: no-repeat;
+    }
+  }
+}

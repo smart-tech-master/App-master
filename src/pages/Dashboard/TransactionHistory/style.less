@@ -1,0 +1,152 @@
+.transaction-history {
+  margin-bottom: -30px !important;
+  min-height: 210px;
+  .ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
+    padding-bottom: 1em !important;
+    border-bottom: none;
+  }
+  .ui.table {
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid rgba(215, 215, 215, 0.4);
+    border-radius: 0;
+    thead {
+      th {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase !important;
+        color: #7E7E7E !important;
+        font-weight: 700 !important;
+        padding-bottom: 1.4em !important;
+      }
+    }
+    tbody {
+      td {
+        border-top: 1px solid rgba(215, 215, 215, 0.4);
+        padding: 0.4em 0 !important;
+      }
+      .fair-price {
+        font-size: 16px;
+        line-height: 28px;
+        color: #3F3F3F;
+      }
+      .transaction-date {
+        display: inline-block;
+        text-align: center;
+        margin-right: 25px;
+        .month {
+          display: block;
+          font-size: 10px;
+          line-height: 12px;
+          color: #7E7E7E;
+          padding-top: 2px;
+        }
+        .day {
+          display: block;
+          font-size: 14px;
+          line-height: 16px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: #3F3F3F;
+        }
+      }
+      .transaction-icon {
+        width: 34px;
+        height: 34px;
+        display: block;
+      }
+      .desc {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7E7E7E;
+        padding: 0;
+        font-weight: 500;
+      }
+      .right {
+        .fair-price {
+          display: block;
+          font-size: 15px;
+          line-height: 22px;
+          text-align: right;
+          color: #3F3F3F;
+        }
+      }
+    }
+  }
+  .show-history-btn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #00D1C1;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: -5px;
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .ui.table {
+      tbody {
+        .fair-price {
+          font-size: 15px;
+          line-height: 26px;
+        }
+        .transaction-date {
+          .month {
+            font-size: 10px;
+            line-height: 12px;
+          }
+          .day {
+            font-size: 14px;
+            line-height: 16px;
+          }
+        }
+        .transaction-icon {
+          width: 30px;
+          height: 30px;
+        }
+        .desc {
+          font-size: 11px;
+          line-height: 14px;
+        }
+        .right {
+          .fair-price {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
+      padding-bottom: 0em !important;
+    }
+    .ui.table {
+      thead {
+        th {
+          font-size: 18px;
+          letter-spacing: 0.5px;
+          line-height: 32px;
+          margin-bottom: 0;
+          padding: 0 !important;
+          color: rgba(0, 0, 0, 0.87) !important;
+          text-transform: unset !important;
+        }
+      }
+      tbody {
+        tr {
+          border-bottom: none;
+        }
+        td {
+          display: inline-block !important;
+          .desc {
+            margin-left: 10px;
+          }
+          &:last-child {
+            display: block !important;
+          }
+        }
+      }
+    }
+  }
+}

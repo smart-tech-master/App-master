@@ -1,0 +1,77 @@
+.get-financing-page {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+
+  .get-financing-card {
+    width: 528px;
+    margin: 0;
+    & > .content {
+      padding: 12px 26px 50px;
+      * {
+        font-weight: 500;
+      }
+      .header {
+        padding: 0.8em 0 0.6em;
+        border-bottom: solid 1px lightgray;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+        margin-bottom: 0.8em;
+      }
+      .desc {
+        font-size: 16px;
+        line-height: 28px;
+        color: #3F3F3F;
+        margin: 0.5em 0;
+      }
+      .field {
+        margin: 2em 0;
+        label {
+          color: #3D454D;
+          font-size: 12px;
+          line-height: 16px;
+        }
+        input {
+          background: #F7F7F7;
+          border: 1px solid #D7D7D7;
+          box-sizing: border-box;
+          border-radius: 4px;
+          font-size: 16px;
+          line-height: 22px;
+          color: #3F3F3F;
+          padding: 12px;
+        }
+      }
+      .terms-and-conditions {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #3F3F3F;
+        display: -webkit-box;
+        display: flex;
+        .other-link-container {
+          margin-left: 8px;
+          margin-top: -3px;
+        }
+        a {
+          color: #00d1c1;
+        }
+      }
+      .next-btn {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 1em;
+      }
+    }
+  }
+}

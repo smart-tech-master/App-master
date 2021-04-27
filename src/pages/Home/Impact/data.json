@@ -1,0 +1,21 @@
+{
+  "header": {
+    "image": "https://master.d145z9cc9kdsdp.amplifyapp.com/static/media/welcome_box.0c372413.jpg",
+    "desc": "From a shareholder-centric model to a model focused on all stakeholders, Fairmint offers users, customers, employees, contractors, partners, communities etc... the opportunities that have traditionally been reserved for insiders.",
+    "title": "The impact of Fairmint"
+  },
+  "statistics": [
+    {
+      "title": "Public companies in the USA",
+      "value": "3,500"
+    },
+    {
+      "title": "Of value is generated before IPO",
+      "value": "90%"
+    },
+    {
+      "title": "Private return over 8 years",
+      "value": "x10"
+    }
+  ]
+}

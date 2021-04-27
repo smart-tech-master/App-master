@@ -1,0 +1,161 @@
+.main-features {
+  padding: 100px 0 !important;
+  position: relative;
+
+  .steps-bg-1.ui.image {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    height: 20%;
+    z-index: 0;
+    transform: rotate(-180deg);
+  }
+
+  .feature {
+    flex: 1;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 36px rgba(44, 44, 44, 0.06), 0px 0px 16px rgba(228, 228, 228, 0.2);
+    border-radius: 12px;
+    margin: 1em;
+    padding: 2.5em 30px !important;
+    display: -webkit-box;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+
+    img.ui.image {
+      width: 45%;
+      margin-bottom: 5%;
+    }
+    .title {
+      margin-bottom: 8px;
+      font-size: 20px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #3F3F3F;
+      font-weight: 600;
+    }
+    .desc {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      color: #3F3F3F;
+    }
+  }
+
+  .main {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    img.ui.image {
+      width: 56px;
+      margin: 20px;
+    }
+    .guide-txt {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #5D88FD;
+      margin-bottom: 20px;
+    }
+    .title {
+      margin-top: 0px;
+      margin-bottom: 45px;
+      font-size: 52px;
+      line-height: 64px;
+      letter-spacing: 3px;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  @media (min-width: 993px) and (max-width: 1220px) {
+    padding: 50px 0 !important;
+
+    .feature {
+      padding: 1.5em 20px !important;
+
+      img.ui.image {
+        width: 45%;
+        margin-bottom: 5%;
+      }
+      .title {
+        font-size: 17px;
+        line-height: 24px;
+      }
+      .desc {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+
+    .main {
+      .title {
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      img.ui.image {
+        margin: 10px;
+      }
+      .guide-txt {
+        font-size: 11px;
+        font-size: 600;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    padding: 70px 0 !important;
+    .steps-bg-1.ui.image {
+      top: -50px;
+      right: 0;
+      height: 80px;
+    }
+
+    .row {
+      flex-direction: column !important;
+      justify-content: center !important;
+
+      .feature {
+        width: auto !important;
+        min-width: 300px;
+        max-width: 350px;
+        margin: 1em !important;
+        .title {
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0.5px;
+        }
+        .desc {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .main {
+      .title {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 600;
+      }
+      .guide-txt {
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.financial-data-page {
+  .ui.card {
+    width: 100%;
+  }
+
+  .card-large-padding {
+    padding: 10px 26px 10px;
+    margin: 32px 0;
+
+    .content {
+      padding: 0;
+      padding-bottom: 0.7em;
+      padding-top: 0.8em;
+      width: 100%;
+      .header {
+        font-size: 16px !important;
+      }
+    }
+
+    @media (min-width: 993px) and (max-width: 1220px) {
+      padding: 10px 26px 22px;
+      margin: 32px 0;
+    }
+    @media (max-width: 600px) {
+      padding: 20px 24px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .ui.card {
+      margin: 1em -0.5em !important;
+      width: calc(100% + 1em) !important;
+      max-width: none;
+      box-shadow: 4px 8px 24px rgba(179, 179, 179, 0.06), 12px 8px 16px rgba(228, 228, 228, 0.2) !important;
+      
+      &.financial-status-box {
+        margin: 1em -20px !important;
+        width: 100vw !important;
+        box-shadow: none !important;
+      }
+      &.trustscore {
+        margin: 1em -1em !important;
+        width: auto !important;
+        box-shadow: none !important;
+        padding: 16px 20px 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "transactions_history": [
+        {
+            "timestamp": "1572980600",
+            "type": "deposit",
+            "input": {
+                "value": 1000,
+                "currency": "USDc"
+            },
+            "output": {}
+        },
+        {
+            "timestamp": "1572893600",
+            "type": "invest",
+            "input": {
+                "value": 1000,
+                "currency": "USDc"
+            },
+            "output": {
+                "value": 252.5253,
+                "currency": "FAIR"
+            }
+        },
+        {
+            "timestamp": "1572780600",
+            "type": "sell",
+            "input": {
+                "value": 252.5253,
+                "currency": "FAIR"
+            },
+            "output": {
+                "value": 1000,
+                "currency": "USDc"
+            }
+        },
+        {
+            "timestamp": "1572680600",
+            "type": "withdraw",
+            "input": {},
+            "output": {
+                "value": 1000,
+                "currency": "USDc"
+            }
+        }
+    ]
+}

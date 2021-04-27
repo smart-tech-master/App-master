@@ -1,0 +1,349 @@
+.invest-page {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+
+  .invest-buy-sell-card {
+    width: 528px;
+    margin: 0;
+
+    & > .content {
+      padding: 8px 20px 20px;
+      * {
+        font-weight: 500;
+      }
+      .mobile-navmenu {
+        display: none;
+      }
+    }
+    .header {
+      position: relative;
+      
+      .menu {
+        border-bottom: 2px solid #EEEEEE;
+      }
+      .item {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: -1px !important;
+        padding: 0.8em 1.8em !important;
+        color: #9E9E9E !important;
+        border-bottom: 4px solid transparent !important;
+        font-weight: 800 !important;
+
+        &.active {
+          border-bottom: 4px solid #5D88FD !important;
+          color: rgb(63, 63, 63) !important;
+        }
+        &.disabled {
+          opacity: 0.45 !important;
+          pointer-events: none;
+          cursor: not-allowed !important;
+        } 
+      }
+      .close-icon {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 3px;
+        top: 10px;
+        cursor: pointer;
+      }
+    }
+    .tab {
+      padding: 0 30px;
+      border: none;
+      box-shadow: none;
+    }
+    .fairmint-value {
+      text-align: center;
+      padding: 8px 0 8px;
+      border-bottom: solid 2px #EEEEEE;
+      user-select: none;
+      
+      .title {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #202020;
+        font-weight: 700;
+      }
+      .usd-price {
+        padding: 0;
+
+        input, span {
+          font-weight: 700;
+          background: transparent;
+          border: none;
+          width: 100%;
+          text-align: center;
+          font-size: 48px;
+          line-height: 58px;
+          text-align: center;
+          letter-spacing: 1px;
+          outline: none;
+          
+          &::-webkit-input-placeholder {
+            color: #DEE8FF;
+          }
+          &::-moz-placeholder {
+            color: #DEE8FF;
+          }
+          &:-ms-input-placeholder {
+            color: #DEE8FF;
+          }
+          &:-moz-placeholder { 
+            color: #DEE8FF;
+          }
+
+          &.valid {
+            color: #5D88FD;
+          }
+          &.error {
+            color: #F44336;
+          }
+        }
+      }
+      .fairmint-vs-usd, .fairmint-price {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #7E7E7E;
+        margin: 4px 0;
+        min-height: 16px;
+
+        &.error {
+          color: #F44336;
+        }
+      }
+    }
+    .celled-table-wrapper {
+      background: #F5F7FA;
+      border: 1px solid #DEE8FF;
+      border-radius: 4px;
+      padding: 0px 20px;
+      margin: 10px 0 10px;
+
+      .table {
+        border: none;
+        background: transparent;
+        tr td:first-child {
+          width: 112px;
+        }
+        tr td {
+          border-top: 1px solid #DEE8FF;
+          font-size: 15px;
+          line-height: 22px;
+          letter-spacing: 1px;
+          color: #3D454D;
+          font-weight: 700;
+          border-left: none !important;
+          padding: 8px 0;
+
+          &.fee {
+            color: #bdbdbd;
+          }
+          &.price {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+          }
+
+          div {
+            padding: 6px 1em;
+            border-left: 1px solid #DEE8FF;
+            font-weight: 700;
+
+            span {
+              font-weight: 700;
+
+              &.fee {
+                font-weight: 500;
+                color: #bdbdbd;
+              }
+              &.price {
+                color: #3f3f3f;
+                letter-spacing: 0.5px;
+                font-size: 16px;
+              }
+            }
+
+            img.icon {
+              width: 20px;
+              margin-right: 3px;
+              margin-bottom: 2px;
+            }
+          }
+        }
+        tr:first-child td {
+          border-top: none;
+        }
+      }
+    }
+    .submit-btn {
+      font-size: 15px;
+      line-height: 16px;
+      padding: 1em;
+      margin: 15px 0;
+      font-weight: 800;
+
+      &.error {
+        color: #fff;
+        pointer-events: none;
+      }
+    }
+    .available-usd {
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        font-size: 12px;
+        line-height: 16px;
+        color: #5F5F5F;
+        font-weight: 400;
+      }
+      .font-weight-bold {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        color: #202020;
+        font-weight: 800;
+      }
+    }
+    .back-icon-header {
+      position: absolute;
+      top: -57px;
+      left: 0;
+      height: 42px;
+      margin: 0;
+      display: -webkit-box;
+      display: flex;
+      width: 200px;
+      align-items: center;
+      background: #fff;
+      border-bottom: solid 1px #eee;
+    
+      .green-back-icon {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+        display: inline-block;
+      }
+    }
+  }
+
+  .loading-overlay-div {
+    background: transparent;
+  }
+
+  @media (max-width: 600px) {
+    z-index: 1003;
+    padding: 0 !important;
+    overflow: hidden;
+    background: #fff;
+
+    .loading-overlay-div {
+      z-index: 2000;
+      background: rgba(0, 0, 0, 0.266);
+    }
+    .invest-buy-sell-card {
+      height: 100vh;
+      overflow-y: auto;
+      width: 100%;
+      border-radius: 0;
+      max-height: 100%;
+      overflow: auto;
+
+      & > .content {
+        padding: 0;
+        .mobile-navmenu {
+          position: static;
+          display: -webkit-box;
+          display: flex;
+
+          .right.item {
+            padding: 0;
+          }
+        }
+        .header {
+          z-index: 1003;
+          padding: 0 20px;
+          
+          .menu {
+            .item {
+              flex: 1;
+              text-align: center;
+              display: inline-block;
+              padding: 1em 1.8em !important;
+            }
+          }
+          .tab {
+            padding: 0;
+          }
+          .close-icon {
+            display: none;
+          }
+        }
+        .fairmint-value {
+          input, span {
+            font-size: 32px;
+          }
+        }
+        .celled-table-wrapper {
+          .table {
+            padding: 3px 0;
+            tr {
+              padding: 0;
+              box-shadow: none !important;
+              border-bottom: 1px solid #DEE8FF;
+
+              td {
+                padding: 8px 0 !important;
+                font-size: 14px;
+                display: table-cell !important;
+                
+                div {
+                  letter-spacing: 0;
+                }
+                .price {
+                  font-size: 16px;
+                }
+                &:first-child {
+                  width: 82px !important;
+                }
+              }
+              &:last-child {
+                border-bottom: none;
+              }
+            }
+          }
+        }
+        .submit-btn {
+          padding: 0.75em;
+        }
+        .available-usd {
+          flex-direction: column;
+          align-items: flex-start;
+          padding-bottom: 50px;
+          span {
+            line-height: 25px;
+          }
+        }
+        .back-icon-header {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+.quotes-section {
+  background: #00D1C1;
+  position: relative;
+  overflow: hidden;
+
+  .footer-bg-1.ui.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    z-index: 0;
+    height: auto;
+  }
+  .footer-bg-2.ui.image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    z-index: 0;
+  }
+  .slick-dots {
+    text-align: left;
+    margin: 0 -6px;
+    bottom: 90px;
+    left: calc(15% + 60px);
+    li {
+      margin: 0;
+      button:before {
+        top: 7px;
+        left: 7px;
+        width: 6px;
+        height: 6px;
+        content: '';
+        background: #fff;
+        border-radius: 3px;
+      }
+      &.slick-active {
+        width: 40px;
+
+        button:before {
+          width: 25px;
+        }
+      }
+    }
+  }
+  .slick-slider {
+    width: 70%;
+    left: 15%;
+
+    .slider-content {
+      width: 70% !important;
+      margin-left: 15%;
+      display: -webkit-box;
+      display: flex !important;
+      padding: 120px 0 150px;
+      outline: none;
+
+      .double-quote-icon {
+        height: 24px;
+        margin-right: 28px;
+      }
+      .main {
+        .text {
+          letter-spacing: 0.3px;
+          color: #FFFFFF;
+          font-size: 20px;
+          line-height: 36px;
+          letter-spacing: 0.5px;
+          font-weight: 500;
+          text-shadow: 0 0 0 #fff;
+        }
+        .author {
+          font-size: 36px;
+          line-height: 48px;
+          font-weight: 600;
+          color: #FFFFFF;
+          margin: 0.8em 0 0.2em;
+        }
+        .role {
+          letter-spacing: 1px;
+          color: #fff;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .slick-dots {
+      text-align: left;
+      margin: 0 -6px;
+      bottom: 90px;
+      left: calc(15% + 40px);
+      li {
+        margin: 0;
+        button:before {
+          top: 7px;
+          left: 7px;
+          width: 6px;
+          height: 6px;
+          content: '';
+          background: #fff;
+          border-radius: 3px;
+        }
+        &.slick-active {
+          width: 40px;
+  
+          button:before {
+            width: 25px;
+          }
+        }
+      }
+    }
+    .slick-slider {
+      width: 70%;
+      left: 15%;
+  
+      .slider-content {
+        width: 70% !important;
+        margin-left: 15%;
+        display: -webkit-box;
+        display: flex !important;
+        padding: 90px 0 140px;
+        outline: none;
+  
+        .double-quote-icon {
+          height: 18px;
+          margin-right: 20px;
+        }
+        .main {
+          .text {
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 500;
+          }
+          .author {
+            font-size: 28px;
+            line-height: 38px;
+            color: #FFFFFF;
+            margin: 1em 0 0.2em;
+          }
+          .role {
+            letter-spacing: 1px;
+            color: #fff;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    background-image: url(../../assets/images/homepage/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
+
+    .slick-dots {
+      left: 50%;
+      transform: translateX(-50px);
+    }
+    .footer-bg-1.ui.image {
+      display: none;
+    }
+    .footer-bg-2.ui.image {
+      display: none;
+    }
+    .slick-slider {
+      width: 80%;
+      left: 10%;
+  
+      .slider-content {
+        width: 80% !important;
+        margin-left: 10%;
+        display: -webkit-box;
+        display: flex !important;
+        padding: 90px 0 120px;
+        outline: none;
+        text-align: center;
+        flex-direction: column;
+  
+        .double-quote-icon {
+          height: 18px;
+          margin-right: 20px;
+          width: 24px;
+          margin: 0px auto 20px;
+        }
+        .main {
+          .text {
+            letter-spacing: 0.3px;
+            color: #FFFFFF;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: 600;
+          }
+          .author {
+            font-size: 28px;
+            line-height: 38px;
+            color: #FFFFFF;
+            margin: 1em 0 0.2em;
+          }
+          .role {
+            letter-spacing: 1px;
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

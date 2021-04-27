@@ -1,0 +1,145 @@
+.get-financing-page {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+
+  .get-financing-card {
+    width: 528px;
+    margin: 0;
+    max-height: 85vh;
+    overflow-y: auto;
+
+    & > .content {
+      padding: 12px 26px 20px;
+
+      iframe {
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    height: 100%;
+    .get-financing-card {
+      margin: 10px;
+    }
+  }
+
+  // JotForm Injected CSS
+
+  // // @font-face {
+  // //   font-family: "SF Pro Text";
+  // //   font-weight: 400;
+  // //   src: url("https://fairmint-fonts.s3.amazonaws.com/SF-Pro-Text-Regular.otf");
+  // // }
+
+  // .form-all * {
+  //   font-family: 'SF Pro Text', sans-serif;
+  // }
+
+  .form-line-error {
+    background: transparent;
+  }
+
+  .jotform-form .form-all {
+    margin: 3px;
+    width: auto;
+  }
+
+  li:first-child .form-header-group {
+    padding: 1em 0 0.6em !important;
+    margin: 0 !important;
+  }
+
+  .form-section .form-header-group .form-header {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #202020;
+    font-weight: 500;
+    text-shadow: 0 0 0 rgba(32, 32, 32, 0.5);
+  }
+
+  .form-section .form-line {
+    padding: 12px 0;
+    margin: 0;
+  }
+
+  .form-section .form-line .form-html p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 26px;
+    color: #3F3F3F;
+    margin: 0;
+  }
+
+  .form-line.form-line-error {
+    background: transparent;
+  }
+
+  .form-line .form-label.form-label-auto {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3D454D;
+    margin: 0;
+  }
+
+  .form-line .form-label .form-required {
+    display: none;
+  }
+
+  .form-label-left+.form-input {
+    display: block;
+    width: 100%;
+  }
+
+  .form-line .form-sub-label-container {
+    display: block;
+  }
+
+  .form-line input {
+    width: 100%;
+    background: #F7F7F7;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3F3F3F;
+    padding: 12px 16px;
+  }
+
+  .form-all .form-line .form-submit-button {
+    padding: 1em;
+    background: #00D1C1;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    height: auto;
+    width: 100%;
+    font-weight: 500;
+    border: solid 1px transparent !important;
+  }
+
+  .jotform-form .formFooter {
+    display: none !important;
+  }
+
+  .form-line iframe {
+    max-height: 52px;
+  }
+
+  .formFooter-heightMask {
+    display: none !important;
+  }
+
+}

@@ -1,0 +1,265 @@
+.welcome-modal {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+
+  .slider-container {
+    width: 528px;
+    position: relative;
+    padding: 26px 0 88px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 4px 8px 24px rgba(179, 179, 179, 0.06), 12px 8px 16px rgba(228, 228, 228, 0.2);
+
+    .slick-slider {
+      pointer-events: none;
+    }
+    .slick-prev, .slick-next {
+      display: none !important;
+    }
+    .slick-dots {
+      text-align: left;
+      margin: 0 -6px;
+      bottom: -48px;
+      left: 26px;
+      li {
+        margin: 0;
+        button:before {
+          top: 7px;
+          left: 7px;
+          width: 6px;
+          height: 6px;
+          content: '';
+          background: #5D88FD;
+          border-radius: 3px;
+        }
+        &.slick-active {
+          width: 40px;
+
+          button:before {
+            width: 25px;
+          }
+        }
+      }
+    }
+    .controls {
+      position: absolute;
+      right: 26px;
+      bottom: 26px;
+      .next-btn {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+        &:hover {
+          svg {
+            circle {
+              fill: rgb(236, 243, 253);
+            }
+          }
+        }
+        &:active {
+          svg {
+            circle {
+              fill: rgb(226, 243, 253);
+            }
+          }
+        }
+      }
+      .ui.primary.button {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 12px 18px;
+        width: 170px;
+        margin-bottom: 4px;
+      }
+    }
+    .welcome-1 {
+      width: 100%;
+      display: inline-block;
+      border-radius: 0;
+      box-shadow: none;
+      outline: none;
+      padding: 0 26px;
+
+      .content {
+        padding: 0;
+
+        .header {
+          font-size: 17px;
+          line-height: 22px;
+          letter-spacing: 0.5px;
+          color: #202020;
+          padding: 0;
+          &:first-child {
+            padding-bottom: 12px;
+            border-bottom: solid 1px rgb(158, 158, 158, 0.4);
+          }
+        }
+        .description {
+          font-size: 15px;
+          p {
+            line-height: 26px;
+          }
+        }
+      }
+      .ui.feed {
+        margin: 1em 0 1.3em;
+        &.large {
+          & > .event > .label {
+            width: 58px;
+            height: 58px;
+            align-self: center;
+          }
+          .content .summary {
+            letter-spacing: 0.5px;
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #202020;
+          }
+          .content .date {
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+    .welcome-2 {
+      position: relative;
+      outline: none;
+      .welcome2-bg {
+        width: 85%;
+        position: absolute;
+        top: 0;
+        left: 15%;
+      }
+      .welcome2-txt {
+        margin-top: 40%;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #5F5F5F;
+        width: 65%;
+        padding: 0 26px;
+      }
+    }
+    .welcome-3 {
+      position: relative;
+      outline: none;
+      background-image: url(../../../assets/images/welcome-3-bg.png);
+      background-repeat: no-repeat;
+      background-position: 0 40px;
+      background-size: 100% auto;
+      .welcome3-bg {
+        width: 100%;
+        padding: 0 5% 0;
+      }
+      .welcome3-txt {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #5F5F5F;
+        padding: 10px 26px 10px;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .slider-container {
+      width: 100%;
+      padding: 26px 0 72px;
+      border-radius: 5px;
+
+      .slick-dots {
+        left: 16px;
+        li {
+          margin: 0;
+          button:before {
+            top: 7px;
+            left: 7px;
+            width: 6px;
+            height: 6px;
+            content: '';
+            background: #5D88FD;
+            border-radius: 3px;
+          }
+          &.slick-active {
+            width: 40px;
+
+            button:before {
+              width: 25px;
+            }
+          }
+        }
+      }
+      .controls {
+        right: 16px;
+        bottom: 16px;
+        .next-btn {
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+        }
+        .ui.primary.button {
+          font-size: 15px;
+          line-height: 18px;
+          padding: 12px 18px;
+          width: 170px;
+          margin-bottom: 4px;
+        }
+      }
+      .welcome-1 {
+        padding: 0 36px;
+        margin: 0 -20px !important;
+
+        .content {
+          align-self: center;
+
+          .header {
+            font-size: 16px !important;
+            line-height: 22px !important;
+          }
+          .description {
+            font-size: 14px !important;
+            p {
+              line-height: 26px;
+            }
+          }
+        }
+        .ui.feed {
+          &.large {
+            & > .event {
+              margin-top: 0.1em;
+            }
+            & > .event > .label {
+              width: 48px !important;
+              height: 48px !important;
+              margin: 0;
+            }
+            .content .summary {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+      
+      .welcome-3 {
+        .welcome3-txt {
+          padding: 40px 26px 10px;
+        }
+      }
+    }
+  }
+}

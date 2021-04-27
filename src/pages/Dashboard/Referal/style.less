@@ -1,0 +1,297 @@
+.referal-tile.ui.card {
+  & > .content {
+    padding: 0;
+  }
+  .ui.feed {
+    & > .event {
+      padding: 0;
+      margin: 0;
+      & > .label {
+        width: 92px;
+        height: 104px;
+        & > div {
+          transform: scale(1.2);
+        }
+      }
+      .content {
+        padding: 0;
+        margin: 0 0 0 1em;
+        .summary {
+          font-size: 18px;
+          line-height: 32px;
+          letter-spacing: 0.5px;
+          color: #3F3F3F;
+          margin: 0.5em 0 0;
+        }
+        .date {
+          font-size: 14px;
+          line-height: 24px;
+          color: #3F3F3F;
+        }
+      }
+    }
+  }
+  .flex-content {
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-color: transparent;
+    margin: 0 -12px;
+    padding: 0;
+    width: auto;
+
+    & > * {
+      margin: 0 12px;
+    }
+    .ui.input {
+      flex: 1;
+      margin-right: 4px;
+      input {
+        background: #F7F7F7;
+        border: 1px solid #D7D7D7;
+        font-size: 15px;
+        line-height: 20px;
+        color: #3f3f3f;
+      }
+    }
+    .joint {
+      font-size: 15px;
+      line-height: 22px;
+      padding: 0 35px;
+      text-align: center;
+      color: #9E9E9E;
+    }
+    .ui.button {
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      padding: 10px 38px;
+      .icon-btn  {
+        width: 22px;
+        height: 22px;
+        margin-right: 4px;
+      }
+      span {
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      &.basic.primary {
+        background: #F5F7FA !important;
+        box-shadow: none !important;
+        font-weight: 600;
+        position: relative;
+        svg {
+          width: 18px;
+          height: 22px;
+          margin-right: 8px;
+        }
+        span {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        &:hover {
+          svg {
+            path {
+              fill: #00b8a9
+            }
+          }
+        }
+        .arrow-box {
+          position: absolute;
+          top: 140%;
+          left: calc(50% - 65px);
+          box-shadow: #dadada 0 0 2px 1px;
+          padding: 5px 0 5px 5px;
+          z-index: 98;
+          background: #fff;
+          border-radius: 4px;
+          display: -webkit-box;
+          display: flex;
+          align-items: center;
+          flex-flow: row wrap;
+          justify-content: center;
+          width: 130px;
+
+          .share-btn {
+            display: inline-flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 2px 3px;
+            .SocialMediaShareButton {
+              outline: none;
+            }
+            svg.social-icon {
+              width: 26px;
+              height: 32px;
+              path {
+                fill: #fff !important;
+              }
+              &:hover {
+                path {
+                  fill: #eee !important;
+                }
+              }
+            }
+          }
+  
+          &:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            margin-left: 0.6em;
+            top: 0em;
+            left: calc(50% - 0.3em);
+            box-sizing: border-box;
+            border: 0.3em solid black;
+            border-color: transparent transparent #fff #fff;
+            transform-origin: 0 0;
+            transform: rotate(135deg);
+            box-shadow: #dadada -2px 2px 2px -1px;
+          }
+        }
+        .box-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.001);
+          z-index: 97;
+        }
+      }
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .ui.feed {
+      & > .event {
+        & > .label {
+          & > div {
+            transform: scale(1.2);
+          }
+        }
+        .content {
+          .summary {
+            font-size: 16px;
+            line-height: 32px;
+          }
+          .date {
+            font-size: 13px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+    .flex-content {
+      .ui.input {
+        input {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+      .joint {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 25px;
+      }
+      .ui.button {
+        padding: 10px 25px;
+        .icon-btn  {
+          width: 20px;
+          height: 20px;
+        }
+        span {
+          font-size: 14px;
+          line-height: 18px;
+        }
+  
+        &.basic.primary {
+          svg {
+            width: 18px;
+            height: 20px;
+            margin-right: 8px;
+          }
+          span {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .ui.feed {
+      & > .event {
+        flex-direction: column;
+        align-items: center;
+        & > .label {
+          width: 30vw !important;
+          height: auto !important;
+          margin: 0;
+          align-self: center;
+        }
+        .content {
+          padding: 0;
+          margin: 0 !important;
+          .summary {
+            font-size: 18px !important;
+            margin: 12px 0 12px 0 !important;
+            line-height: 32px;
+          }
+          .date {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .flex-content {
+      margin: 0 -8px;
+      flex-flow: row wrap;
+      .ui.input {
+        width: 100%;
+        margin: 8px;
+        flex: auto;
+      }
+      &::after {
+        display: none;
+      }
+      & > * {
+        margin: 8px;
+      }
+      .joint {
+        display: none;
+      }
+      .ui.button {
+        padding: 10px 8px;
+        .icon-btn  {
+          display: none;
+        }
+        span {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        &.send-invite-btn {
+          flex: 1 1;
+          justify-content: center;
+        }
+        &.basic.primary {
+          svg {
+            width: 24px;
+            display: block;
+            height: 20px;
+            margin-right: 0;
+            stroke: #00d1c1;
+            stroke-width: 0.5px;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.invest-success-page {
+  padding-top: 0;
+  background: #fff;
+  user-select: none;
+  & > span {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .success-image {
+    width: 100%;
+    margin: 40px auto 30px;
+  }
+  .ui.header {
+    margin-bottom: 1em;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .price {
+    user-select: none;
+    margin-bottom: 16px;
+    span {
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      color: #5D88FD;
+      font-weight: 600 !important;
+    }
+  }
+  .desc {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #7E7E7E;
+    padding: 0 0 1em;
+  }
+
+  @media (max-width: 600px) {
+    & > span {
+      display: none;
+    }
+    .ui.header {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .desc {
+      padding: 20px 30px 20px;
+      font-size: 13px;
+    }
+    .ui.primary.button {
+      font-weight: 600 !important;
+    }
+  }
+}

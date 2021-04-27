@@ -1,0 +1,148 @@
+.intro-section {
+  padding: 180px 0 50px;
+  background-image: url(../../../assets/images/homepage/bg_diagram.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 480px;
+  background-position: bottom;
+
+  .container {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+
+    .title {
+      font-size: 52px !important;
+      line-height: 64px;
+      margin: 0 0px;
+      letter-spacing: 3px;
+      color: #3F3F3F;
+    }
+    .desc {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      color: #7E7E7E;
+      margin: 25px 150px 20px;
+    }
+    .btns-container {
+      margin: 20px 0 25px;
+      .button {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 1em 0.6em;
+        margin: 5px 1em;
+        width: 256px;
+        font-weight: 800;
+      }
+    }
+    .intro-fg {
+      border-radius: 30px;
+      position: relative;
+      z-index: 2;
+      box-shadow: 18px 18px 28px rgba(0, 0, 0, 0.08), 0px 0px 3px rgba(5, 5, 5, 0.04);
+    }
+    .arrows-frame-png {
+      position: absolute;
+      top: 450px;
+      width: calc(50% - 240px);
+      left: 0;
+
+      @media (min-width: 1220px) {
+        display: none;
+      }
+    }
+    .half-circle-vector {
+      position: absolute;
+      top: 50px;
+      width: 12%;
+      left: 0;
+      transform: rotate(-180deg) translate(30%, -50%);
+    }
+    .quater-round-vector-png {
+      position: absolute;
+      top: 300px;
+      width: 10%;
+      left: calc(50% + 350px);
+      max-width: 130px;
+    }
+    .quater-double-round-vector-png {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20%;
+      transform: translate(50%, -50%);
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    padding: 150px 0 50px;
+    .container {
+      width: 760px;
+      margin: auto;
+      text-align: center;
+  
+      .title {
+        font-size: 35px !important;
+        line-height: 48px;
+      }
+      .desc {
+        font-size: 15px;
+        line-height: 26px;
+      }
+      .btns-container {
+        margin: 20px 0 25px;
+        .button {
+          padding: 0.9em 0.6em;
+          width: 220px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    padding: 120px 0 50px;
+    .container {
+      width: 100%;
+      padding: 1.5em;
+
+      .title {
+        font-size: 28px !important;
+        line-height: 40px;
+        letter-spacing: 2px;
+      }
+      .desc {
+        font-size: 14px;
+        margin: 15px 0;
+        line-height: 24px;
+      }
+      .btns-container {
+        margin: 20px 0 35px;
+        .button {
+          margin: 10px 0;
+          width: 100%;
+          padding: 0.8em;
+        }
+        .learn-more-btn {
+          background: #fff !important;
+        }
+      }
+      .intro-fg {
+        border-radius: 10px;
+      }
+      .arrows-frame-png {
+        display: none;
+      }
+      .half-circle-vector {
+        top: 2%;
+        width: 20%;
+        left: 0;
+      }
+      .quater-double-round-vector-png {
+        top: 0;
+        right: 0;
+        width: 25%;
+        max-width: 130px;
+        z-index: 100;
+      }
+    }
+  }
+}

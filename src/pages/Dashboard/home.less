@@ -1,0 +1,592 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.page-home {
+  .wide.column {
+    padding-right: 0;
+  }
+  .topline {
+    border-top: solid 5px #00D1C1;
+    padding: 16px 20px;
+
+    .message-box {
+      background: #FFC107;
+      border-radius: 8px;
+      padding: 20px 16px;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 20px;
+
+      .header {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+      }
+      .description {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &.arrow-box {
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          margin-left: 0.6em;
+          top: 0em;
+          left: 30px;
+          box-sizing: border-box;
+          border: 0.3em solid black;
+          border-color: transparent transparent #FFC107 #FFC107;
+          transform-origin: 0 0;
+          transform: rotate(135deg);
+        }
+      }
+    
+      @media (max-width: 1220px) {
+        padding: 16px 14px;
+        margin-bottom: 15px;
+        .header {
+          font-size: 19px;
+          line-height: 24px;
+          margin-bottom: 6px;
+        }
+        .description {
+          font-size: 15px;
+          line-height: 22px;
+        }
+        &.arrow-box {
+          &:after {
+            left: 25px;
+          }
+        }
+      }
+      @media (max-width: 600px) {
+        &.arrow-box {
+          &:after {
+            left: 22px;
+          }
+        }
+      }
+    }
+    .lets-chat-btn {
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      font-size: 20px;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 800 !important;
+      padding: 0.4em 0 0.3em;
+      span {
+        margin-left: 20px;
+      }
+      .message-btn {
+        width: 40px;
+        margin-bottom: 0.2em;
+        height: 35px;
+      }
+      @media (max-width: 1220px) {
+        font-size: 15px;
+      }
+      @media (max-width: 600px) {
+        .message-btn {
+          width: 30px;
+          height: 28px;
+        }
+      }
+    }
+    
+    @media (max-width: 600px) {
+      padding: 4px 8px;
+
+      .ui.feed.large > .event > .label {
+        width: 48px;
+        height: 48px;
+        & + .content {
+          margin: 0.2em 0em 0.3125em 0.625em;
+          .summary {
+            font-size: 18px;
+          }
+          .date {
+            font-size: 14px;
+          }
+        }
+      }
+      & > .content {
+        & > .header {
+          font-size: 18px !important;
+        }
+        & > .description  {
+          font-size: 14px !important;
+        }
+        .discover-fairmint-btn {
+          font-size: 14px;
+          padding: 11px 20px;
+        }
+      }
+    }
+  }
+
+  .ui.feed {
+    &.large {
+      & > .event > .label {
+        width: 68px;
+        height: 68px;
+        align-self: center;
+      }
+      .content .summary {
+        letter-spacing: 0.5px;
+      }
+    }
+    &.small {
+      & > .event {
+        padding: 0.2875rem 3px;
+        margin: 0.6em 0em;
+
+        &:hover {
+          background-color: rgba(220, 220, 220, 0.16);
+          cursor: pointer;
+        }
+
+        & > .label + .content {
+          margin: 0.6em 0em 0.3125em 1.025em;
+        }
+        .content {
+          .summary {
+            font-size: 16px;
+            margin: 0 0.1em 0.2em 0;
+            letter-spacing: 0.5px;
+          }
+          .date {
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+        & > .label {
+          width: 56px;
+          height: 56px;
+          align-self: center;
+        }
+
+        .primary.button {
+          width: 100%;
+          height: 100%;
+          display: -webkit-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+    &.fmnt-total {
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      box-shadow: 12px 12px 28px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(117, 117, 117, 0.2);
+      border-radius: 8px;
+      padding: 16px 20px;
+      .content {
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        .summary {
+          color: #06D48A;
+          font-size: 32px;
+          margin-bottom: 0;
+          line-height: 1.2em;
+        }
+      }
+    }
+  }
+  .ui.card {
+    width: 100%;
+    margin: 0;
+    & .header {
+      letter-spacing: 0.5px;
+    }
+    & > .content > .description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5em;
+  
+      p {
+        line-height: 1.5em;
+      }
+    }
+  }
+  .discover-fairmint-btn {
+    border: 2px solid #00D1C1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #fff;
+    width: 100%;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 600 !important;
+    margin: 0;
+    margin-top: 12px;
+  }
+  .video-player-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-grow: 1;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+    .play-btn {
+      position: absolute;
+      bottom: -24px;
+      right: 36px;
+      width: 100px;
+      height: 100px;
+      background: #fff;
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      box-shadow: 12px 12px 40px rgba(238, 151, 0, 0.2), 1px 2px 2px rgba(255, 164, 6, 0.2);
+      
+      &:hover {
+        background: rgba(230, 230, 232, 0.95);
+      }
+      &:active {
+        background: rgba(183, 183, 183, 0.8);
+      }
+      img {
+        width: 33px;
+        margin-left: 8px;
+      }
+    }
+  }
+  .video-player-card-content {
+    padding: 36px !important;
+    flex-grow: unset !important;
+  }
+  .card-large-padding {
+    padding: 10px 26px 10px;
+    margin: 32px 0;
+
+    .content {
+      padding: 0;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      width: 100%;
+      & > .header {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #7E7E7E;
+        font-weight: 700;
+        padding-bottom: 0;
+      }
+    }
+  }
+  .finish-verify-card {
+    background-image: url(../../assets/images/graff.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0;
+    height: 380px;
+    .content {
+      width: 300px;
+    }
+    @media (max-width: 600px) {
+      background-size: 160vw;
+      height: 112vw;
+      min-height: 380px;
+      background-position: right -15vw bottom 6vw;
+      .content {
+        width: 100%;
+      }
+    }
+  }
+  .notification-msg-container {
+    width: 100%;
+    margin: 0 0.6em;
+  }
+  .link-btn-header {
+    width: 100%;
+    .header {
+      display: inline-block !important;
+    }
+    .link-btn {
+      color: #00D1C1;
+      font-size: 16px;
+      font-weight: 600;
+      float: right;
+      cursor: pointer;
+      display: -webkit-box;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      & > span.desc {
+        color: #000;
+        font-weight: 500;
+        margin-right: 8px;
+      }
+      .question_mark {
+        & + .info-box-with-arrow {
+          display: none;
+          position: absolute;
+          top: 28px;
+          padding: 1em;
+          box-sizing: border-box;
+          background: #00D1C1;
+          box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.4);
+          color: #fff;
+          font-size: 12px;
+          border-radius: 5px;
+          z-index: 101;
+          right: calc(-50% - 0.5em);
+          width: 180px;
+        }
+        &:hover + .info-box-with-arrow {
+          display: block;
+          &:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            margin-left: 0.6em;
+            top: 0em;
+            left: 50%;
+            box-sizing: border-box;
+            border: 0.3em solid black;
+            border-color: transparent transparent #00D1C1 #00D1C1;
+            transform-origin: 0 0;
+            transform: rotate(135deg);
+          }
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  
+  .mobile {
+    .medium.header {
+      font-size: 32px;
+      margin-bottom: -1.7em;
+      margin-top: 0.5em;
+      font-weight: 700;
+    }
+  }
+
+  .portfolio-chart {
+    .apexcharts-legend-marker {
+      width: 6px !important;
+      height: 6px !important;
+      margin-bottom: 1px;
+      margin-right: 5px;
+    }
+    .apexcharts-toolbar {
+      display: none;
+    }
+  }
+
+
+  /* Small Width Computer Menu */
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .topline {
+      padding: 6px 10px;
+      .ui.feed.large > .event > .label {
+        width: 58px;
+        height: 58px;
+
+        & + .content {
+          margin: 0.5em 0em 0.3125em 0.625em;
+
+          .summary {
+            font-size: 18px;
+          }
+          .date {
+            font-size: 14px;  
+          }
+        }
+      }
+
+    }
+    .ui.card > .content {
+      & > .header {
+        font-size: 19px;
+      }
+      & > .description {
+        font-size: 15px;
+      }
+    }
+    .video-player-container {
+      .play-btn {
+        width: 75px;
+        height: 75px;
+        img {
+          width: 25px;
+          margin-left: 4px;
+        }
+      }
+    }
+    .ui.feed.small {
+      & > .event {
+        padding: 0.2875rem 3px;
+        margin: 0.5em 0em;
+        &:first-child {
+          margin-top: -0.2em;
+        }
+        & > .label {
+          width: 48px;
+          height: 48px;
+          & + .content {
+            margin: 0.4em 0em 0.3125em 0.625em;
+          }
+          .circular.primary.button  {
+            font-size: 12px;
+          }
+        }
+        .content {
+          .summary {
+            font-size: 15px;
+            margin: 0 0 0.1em 0;
+            letter-spacing: 0;
+          }
+          .date {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .card-large-padding {
+      padding: 10px 26px 16px;
+      margin: 32px 0;
+      .content {
+        padding-bottom: 12px;
+        padding-top: 10px;
+      }
+    }
+    .ui.feed.fmnt-total .content .summary {
+      font-size: 24px;
+    }
+    .video-player-card-content {
+      padding: 30px 26px !important;
+    }
+    .finish-verify-card {
+      background-size: 100% auto;
+      height: 320px;
+      background-position: bottom;
+    }
+    
+    .video-player-card-content {
+      padding: 30px 26px !important;
+    }
+  }
+
+  /* Mobile Menu */
+  @media (max-width: 600px) {
+    .ui.card {
+      border-radius: 0;
+      margin: -20px;
+      width: calc(100% + 40px) !important;
+      max-width: unset;
+      box-shadow: none;
+    
+      .video-player-container {
+        height: 350px;
+        .play-btn {
+          width: 56px;
+          height: 56px;
+          padding: 15px;
+          bottom: -27.5px;
+          right: 30px;
+
+          img {
+            width: 18px;
+            margin-left: 4px;
+          }
+        }
+      }
+      .content {
+        & > .header {
+          font-size: 18px !important;
+          line-height: 1.5em !important;
+          color: #202020 !important;
+        }
+        & > .description {
+          font-size: 14px !important;
+
+          .ui.primary.button {
+            padding: 11px 20px;
+            font-size: 14px;
+          }
+        }
+      }
+      .event {
+        margin: 0.45rem 0;
+        &:first-child {
+          margin-top: -0.3em;
+        }
+        & > .label {
+          width: 40px !important;
+          height: 40px !important;
+          margin: 9px 0 0 0;
+
+          .ui.primary.button {
+            font-size: 12px;
+            width: 38px;
+            height: 38px;
+          }
+        }
+        & > .content {
+          margin: 0.1em 0em 0 0.625em !important;
+          .summary {
+            font-size: 14px !important;
+            margin: 6px 0 6px 0 !important;
+          }
+          .description {
+            font-size: 12px;
+          }
+          .date {
+            line-height: 16px;
+          }
+        }
+      }
+    }
+    .card-large-padding {
+      padding: 20px 24px;
+      .link-btn-header .link-btn {
+        font-size: 14px;
+        margin-top: 0.4em;
+        float: none;
+      }
+    }
+    .statistics.ui.card {
+      .fmnt-total {
+        padding: 16px;
+        .event {
+          margin: 0;
+          & > .content {
+            margin: -0.2em 0 0px 0.525em !important;
+            .summary {
+              font-size: 18px !important;
+              line-height: 24px;
+              font-weight: 600;
+            }
+            .date {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

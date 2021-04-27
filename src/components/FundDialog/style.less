@@ -1,0 +1,152 @@
+.fund-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  text-align: center;
+
+  .fund-card {
+    width: 528px;
+    margin: 0;
+    & > .content {
+      padding: 12px 26px 36px;
+      * {
+        font-weight: 500;
+      }
+    }
+    .header {
+      padding: 25px 0px 10px 0px;
+      border-bottom: 2px solid #EEEEEE;
+    }
+    .fund-step1 {
+      .description1 {
+        max-width: 400px;
+        margin: auto;
+        padding-top: 20px;
+        line-height: 30px;
+      }
+      .description2 {
+        font-weight: bold;
+        max-width: 270px;
+        margin: auto;
+        padding-top: 20px;
+        line-height: 27px;
+      }
+      .usd-price {
+        padding: 16px 0 0;
+
+        input, span {
+          font-weight: 700;
+          background: transparent;
+          border: none;
+          width: 100%;
+          text-align: center;
+          font-size: 52px;
+          line-height: 64px;
+          text-align: center;
+          letter-spacing: 1px;
+          outline: none;
+          
+          &::-webkit-input-placeholder {
+            color: #DEE8FF;
+          }
+          &::-moz-placeholder {
+            color: #DEE8FF;
+          }
+          &:-ms-input-placeholder {
+            color: #DEE8FF;
+          }
+          &:-moz-placeholder { 
+            color: #DEE8FF;
+          }
+
+          &.valid {
+            color: #5D88FD;
+          }
+          &.error {
+            color: #F44336;
+          }
+        }
+      }
+      .fund-error {
+        max-width: 370px;
+        margin: auto;
+        font-size: 14px;
+        color: #F44336;
+      }
+      button {
+        margin-top: 40px;
+      }
+    }
+    .fund-step2 {
+      img { padding-top: 15px; }
+      .description1 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 36px;
+      }
+      .description2 {
+        padding-top: 20px;
+        line-height: 28px;
+        span { color: #00D1C1; font-weight: bold; }
+      }
+      .description3 {
+        max-width: 400px;
+        margin: auto;
+        padding-top: 20px;
+        font-weight: bold;
+        line-height: 24px;
+      }
+      button {
+        margin-top: 40px;
+      }
+    }
+    button {
+      height: 52px;
+      font-size: 16px;
+      font-weight: bold !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .fund-card {
+      width: 100%;
+      margin: 10px;
+
+      & > .content {
+        padding: 10px 20px 26px;
+
+        .header {
+          font-size: 16px !important;
+        }
+        .close-icon {
+          display: none;
+        }
+        .description-content {
+          font-size: 14px;
+        }
+        .ui.input {
+          padding: 20px 0px 30px 0px;
+          width: 100%;
+          input {
+            line-height: 1.5em !important;
+          }
+        }
+        label {
+          font-size: 14px;
+        }
+      }
+      .ui.primary.button {
+        font-size: 14px;
+        line-height: 1.6em;
+        height: auto;
+      }
+    }
+  }
+}

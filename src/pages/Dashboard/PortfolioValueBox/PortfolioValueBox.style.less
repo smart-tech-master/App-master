@@ -1,0 +1,251 @@
+.portfolio-value-box {
+  margin-bottom: 0em !important;
+  z-index: 100;
+  overflow: hidden;
+
+  #chart {
+    padding: 0 15px;
+    height: 330px;
+    margin-bottom: -25px;
+    @media (min-width: 993px) and (max-width: 1220px) {
+      height: 320px;
+      margin-bottom: -30px;
+    }
+    @media (max-width: 600px) {
+      height: 320px;
+      padding: 0;
+      margin-top: 40px;
+      margin-bottom: -50px;
+    }
+  }
+
+  & > .content {
+    padding: 0 !important;
+    .header {
+      position: absolute;
+      padding: 16px 46px;
+      left: 50%;
+      top: 10px;
+      transform: translateX(-50%);
+      background: #fff;
+      z-index: 20;
+      
+      span {
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #202020;
+        opacity: 0.8;
+        display: block;
+      }
+      .price {
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        color: #00D1C1;
+        opacity: 1;
+      }
+
+      @media (min-width: 993px) and (max-width: 1220px) {
+        padding: 22px 26px;
+        span {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        .price {
+          font-size: 30px;
+          line-height: 38px;
+        }
+      }
+      @media (max-width: 600px) {
+        background: transparent;
+        padding: 22px 0;
+        span {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        .price {
+          font-size: 28px;
+          line-height: 38px;
+        }
+      }
+    }
+    .description.falsy-status {
+      margin-top: -4em !important;
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #5F5F5F;
+        width: 300px;
+        position: relative;
+        top: calc(100px + 4em);
+        left: 36px;
+        font-weight: 500;
+      }
+      img {
+        width: 100%;
+        margin-top: 150px;
+        height: 300px;
+      }
+      
+      @media (min-width: 993px) and (max-width: 1220px) {
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          width: 280px;
+          top: calc(80px + 4em);
+          left: 26px;
+        }
+        img {
+          margin-top: 120px;
+          height: 280px;
+        }
+      }
+      @media (max-width: 600px) {
+        margin-top: 5em !important;
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          width: 280px;
+          top: calc(80px + -5em);
+          left: 20px;
+        }
+        img {
+          margin-top: 30px;
+        }
+      }
+    }
+    .description.trusy-status {
+      padding: 0;
+
+      @media (max-width: 1220px) {
+        padding: 8px 0;
+      }
+      @media (max-width: 600px) {
+        padding: 22px 0;
+
+        .apexcharts-canvas {
+          margin-left: 0;
+        }
+      }
+      .series-tooltip {
+        position: absolute;
+        opacity: 0;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 10px 8px 10px;
+        border-radius: 4px;
+        font-weight: bold;
+        margin: 0;
+        z-index: 22;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          margin-left: 0.6em;
+          box-sizing: border-box;
+          border: 0.3em solid black;
+          border-color: transparent;
+          transform-origin: 0 0;
+          transform: rotate(135deg);
+          border-bottom-color: inherit;
+          border-right-color: inherit;
+          bottom: -0.5em;
+          top: auto;
+          border-top-color: inherit;
+          left: 23px;
+        }
+        .price {
+          font-size: 14px;
+          line-height: 22px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          display: block;
+        }
+        .increase {
+          font-size: 11px;
+          line-height: 14px;
+          color: #FFFFFF;
+          display: block;
+        }
+        @media (max-width: 600px) {
+          margin-left: -5px;
+          &:after {
+            left: 13px;
+          }
+        }
+
+        &.series-tooltip-left {
+          &:after {
+            left: 83px;
+          }
+          @media (max-width: 600px) {
+            margin-left: -30px;
+            &:after {
+              left: 98px;
+            }
+          }
+        }
+      }
+      .apexcharts-tooltip {
+        display: none;
+      }
+      .apexcharts-xcrosshairs {
+        display: none;
+      }
+      .apexcharts-legend {
+        display: none;
+      }
+      .apexcharts-toolbar {
+        display: none;
+      }
+      .apexcharts-xaxis {
+        display: none;
+        line {
+          stroke: transparent;
+        }
+      }
+      .apexcharts-xaxis-tick {
+        display: none;
+      }
+      .apexcharts-inner {
+        transform: translateX(12px);
+      }
+      .apexcharts-xaxistooltip {
+        display: none;
+      }
+      .toolbar {
+        position: absolute;
+        bottom: 40px;
+        left: 26px;
+        width: calc(100% - 52px);
+        overflow: visible;
+        z-index: -1;
+  
+        text {
+          font-size: 10px;
+          fill: #9E9E9E;
+        }
+        &.mobile.only {
+          display: none;
+        }
+    
+        @media (max-width: 600px) {
+          display: none;
+    
+          &.mobile.only {
+            display: -webkit-box;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}

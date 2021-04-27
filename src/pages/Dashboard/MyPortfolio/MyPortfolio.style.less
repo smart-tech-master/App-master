@@ -1,0 +1,160 @@
+.portfolio-chart {
+  margin-bottom: -30px !important;
+  .ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
+    padding-bottom: 1em !important;
+    border-bottom: none;
+  }
+  .ui.table {
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid rgba(215, 215, 215, 0.4);
+    border-radius: 0;
+    thead {
+      th {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase !important;
+        color: #7E7E7E !important;
+        font-weight: 700 !important;
+        padding-bottom: 1.4em !important;
+      }
+    }
+    tbody {
+      td {
+        border-top: 1px solid rgba(215, 215, 215, 0.4);
+        padding: 1.2em 0 !important;
+      }
+      .currency {
+        display: -webkit-box;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: #202020;
+      }
+      .currency-icon {
+        width: 20px;
+        margin-right: 0.5em;
+      }
+      .fair-price {
+        font-size: 16px;
+        line-height: 28px;
+        color: #3F3F3F;
+      }
+      .usd-price {
+        font-size: 16px;
+        line-height: 28px;
+        color: #3F3F3F;
+
+        &.cur {
+          margin-left: 0.7em;
+        }
+      }
+    }
+  }
+  .portfolio-value-container {
+    padding: 0.3em 1em 0.3em;
+  }
+
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .ui.table {
+      tbody {
+        td {
+          padding: 1.15em 0 !important;
+        }
+        .currency {
+          font-size: 15px;
+          line-height: 22px;
+        }
+        .currency-icon {
+          width: 18px;
+        }
+        .fair-price {
+          font-size: 15px;
+          line-height: 26px;
+          color: #3F3F3F;
+        }
+        .usd-price {
+          font-size: 15px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .ui.header {
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      line-height: 32px;
+      padding: 0 16px;
+      margin-bottom: 16px;
+    }
+    .ui.table:not(.unstackable) {
+      tbody {
+        display: table-row-group !important;
+      }
+      tr {
+        display: table-row !important;
+      }
+      td {
+        display: table-cell !important;
+      }
+    }
+    .ui.basic.table {
+      tbody {
+        tr:first-child {
+          box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
+        }
+        tr:last-child {
+          td {
+            padding-bottom: 1.2em !important;
+          }
+        }
+        .currency {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 1em 0 0;
+        }
+        tr {
+          box-shadow: none !important;
+          td {
+            font-size: 10px;
+            line-height: 16px;
+            letter-spacing: 2px;
+            color: #7e7e7e;
+            padding: 0.75em 0 !important;
+          }
+        }
+        .fair-price {
+          font-size: 14px;
+          line-height: 24px;
+        }
+        .usd-price {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .portfolio-value-title {
+    font-size: 12px;
+    line-height: 24px;
+    color: #3F3F3F;
+  }
+  .portfolio-value-price {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #3F3F3F;
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .portfolio-value-price {
+      font-size: 15px;
+    }
+  }
+}

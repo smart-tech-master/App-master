@@ -1,0 +1,82 @@
+.trustscore {
+  .speedmeter-container {
+    border-bottom: solid 1px #D7E0E9;
+  }
+  .ui.accordion {
+    padding: 1.5em 0;
+
+    .title {
+      font-size: 14px;
+      line-height: 22px;
+      color: #535D68;
+      font-weight: 600;
+
+      i.question {
+        transform: rotate(90deg) scaleY(1.6);
+        height: 20px;
+        width: 10px;
+        font-size: 12px;
+        margin-right: 10px;
+        color: #00d1c1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        &:before {
+          content: ">";
+        }
+      }
+      &.active {
+        i.question {
+          &:before {
+            content: "<";
+          }
+        }
+      }
+    }
+    .content {
+      color: #535D68;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+  .invest-now-btn {
+    font-weight: 600 !important;
+    border: 2px solid #00D1C1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .invest-now-btn {
+      font-size: 13px;
+      padding: 0.9em;
+    }
+    .ui.accordion {
+      .title {
+        font-size: 13px;
+        line-height: 18px;
+      }
+      .content {
+        font-size: 13px;
+        line-height: 22px;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .invest-now-btn {
+      padding: 0.8em;
+      font-size: 14px;
+    }
+    .ui.accordion {
+      .title {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .content {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}

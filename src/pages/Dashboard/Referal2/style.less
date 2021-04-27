@@ -1,0 +1,234 @@
+.referal2-tile.ui.card {
+  & > .content {
+    padding: 0;
+  }
+  .ui.feed {
+    padding: 5px 0;
+    & > .event {
+      padding: 0;
+      margin: 0;
+      & > .label {
+        width: 82px;
+        height: auto;
+        align-self: center;
+        display: -webkit-box;
+        display: flex;
+        max-height: 100px;
+
+        .ui.image {
+          border-radius: 0;
+          height: 100%;
+        }
+        & > div {
+          transform: scale(1.2);
+        }
+      }
+      .content {
+        padding: 0;
+        margin: 0 0 0 1.5em;
+        .summary {
+          font-size: 18px;
+          line-height: 32px;
+          letter-spacing: 0.5px;
+          color: #3F3F3F;
+          margin: 0 0 0.2em 0;
+        }
+        .date {
+          font-size: 14px;
+          line-height: 24px;
+          color: #3F3F3F;
+        }
+      }
+    }
+  }
+  .send-invite-btn {
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    width: 240px;
+    .wrapper {
+      width: 100%;
+      .SocialMediaShareButton {
+        width: 100%;
+        svg {
+          pointer-events: none;
+        }
+      }
+    }
+  }
+  .share-modal-page {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 209, 193, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+  
+    .share-modal-card {
+      width: 528px;
+      margin: 0;
+      max-height: 90vh;
+      overflow-y: scroll;
+  
+      & > .content {
+        padding: 12px 26px 20px;
+  
+        iframe {
+          position: relative;
+          z-index: 2;
+        }
+      }
+    }
+  
+    @media (max-width: 600px) {
+      height: 100%;
+      .share-modal-card {
+        margin: 10px;
+      }
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .ui.feed {
+      & > .event {
+        & > .label {
+          & > div {
+            transform: scale(1.2);
+          }
+        }
+        .content {
+          .summary {
+            font-size: 16px;
+            line-height: 32px;
+          }
+          .date {
+            font-size: 13px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+    .flex-content {
+      .ui.input {
+        input {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+      .joint {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 25px;
+      }
+      .ui.button {
+        padding: 10px 25px;
+        .icon-btn  {
+          width: 20px;
+          height: 20px;
+        }
+        span {
+          font-size: 14px;
+          line-height: 18px;
+        }
+  
+        &.basic.primary {
+          svg {
+            width: 18px;
+            height: 20px;
+            margin-right: 8px;
+          }
+          span {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .ui.feed {
+      & > .event {
+        flex-direction: column;
+        align-items: center;
+        & > .label {
+          width: 30vw !important;
+          height: auto !important;
+          margin: 0;
+          align-self: center;
+          max-height: 36vw !important;
+        }
+        .content {
+          padding: 0;
+          margin: 0 !important;
+          text-align: center;
+          .summary {
+            font-size: 18px !important;
+            margin: 12px 0 12px 0 !important;
+            line-height: 32px;
+          }
+          .date {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+        .send-invite-btn {
+          flex: 1 1;
+          justify-content: center;
+          margin: 3em 0;
+          width: 60%;
+        }
+      }
+    }
+    .flex-content {
+      margin: 0 -8px;
+      flex-flow: row wrap;
+      .ui.input {
+        width: 100%;
+        margin: 8px;
+        flex: auto;
+      }
+      &::after {
+        display: none;
+      }
+      & > * {
+        margin: 8px;
+      }
+      .joint {
+        display: none;
+      }
+      .ui.button {
+        padding: 10px 8px;
+        .icon-btn  {
+          display: none;
+        }
+        span {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        &.send-invite-btn {
+          flex: 1 1;
+          justify-content: center;
+          margin: 3em 0;
+          width: 60%;
+        }
+        &.basic.primary {
+          svg {
+            width: 24px;
+            display: block;
+            height: 20px;
+            margin-right: 0;
+            stroke: #00d1c1;
+            stroke-width: 0.5px;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

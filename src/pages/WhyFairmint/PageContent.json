@@ -1,0 +1,120 @@
+{
+    "about": {
+        "name": "Fairmint",
+        "ceo": {
+            "name": "Thibauld Favre",
+            "picture": "https://pbs.twimg.com/profile_images/1155561772700639232/gN4FS4_R_400x400.jpg"
+        },
+        "team": 5,
+        "legal_name": "FAIRMINT Inc.",
+        "legal_entity": "Delaware C-Corp",
+        "headquarters": "West Hartford, CT",
+        "founded": 2019,
+        "key_investors": "Boost VC, IDEO CoLab, TinyVC, Starchain Capital"
+    },
+    "header": {
+        "image": "https://master.d145z9cc9kdsdp.amplifyapp.com/static/media/welcome_box.0c372413.jpg",
+        "quote": "Fairmint let people share the financial success of organizations they use & love.",
+        "name": "Thibauld Favre",
+        "title": "CEO Fairmint",
+        "picture": "https://pbs.twimg.com/profile_images/1155561772700639232/gN4FS4_R_400x400.jpg"
+    },
+    "mission_statement": "<p>Fairmint aims at counteracting inequalities by decentralizing the world's wealth.</p><p>Only a very limited number of shareholders benefit from the wealth created by organizations. We believe that all stakeholders (employees, users, customers, contributors, contractors, suppliers...) that organizations rely on should have the opportunity to get their fair share of the value they help create.</p><p>At Fairmint, we give organizations the tools they need to give people the opportunity to share the value created by the organizations they love and use.</p>",
+    "testimonials": [
+		{
+			"quote": "Access to capital  needs to be drastically improved, Fairmint is an answer to that!",
+			"name": "Thomas France",
+			"title": "Ledger",
+			"picture": "https://pbs.twimg.com/profile_images/895192622637223936/x2bWMR-x_400x400.jpg"
+		},
+		{
+			"quote": "Fairmint’s continuous organization model embodies the future of finance: equitable, transparent, and accessible to all.",
+			"name": "Dan Elitzer",
+			"title": "IDEO CoLab",
+			"picture": "https://pbs.twimg.com/profile_images/529095245103763456/_-y0PMBk_400x400.jpeg"
+		},
+		{
+			"quote": "Financial equity will be achieved through ownership and Fairmint brings ownership to the people.",
+			"name": "Brayton Williams",
+			"title": "BoostVC",
+			"picture": "https://pbs.twimg.com/profile_images/463829126520918016/k-XfUAtc_400x400.jpeg"
+		},
+        {
+			"quote": "Fairmint is paving a new way of going public in a fair and innovative fashion.",
+			"name": "Reda Berrehili",
+			"title": "Ki Foundation",
+			"picture": "https://pbs.twimg.com/profile_images/1101064894894538752/Mp8ZjbBp_400x400.png"
+		}
+    ],
+    "team": {
+        "founders": [
+            {
+                "name": "Thibauld",
+                "title": "CEO",
+                "picture": "https://pbs.twimg.com/profile_images/1155561772700639232/gN4FS4_R_400x400.jpg",
+                "bio": "Co-founder of Fairmint and author of the Continuous Organization whitepaper. Prior to Fairmint, I was partner at TheFamily where I was doing research & education on crypto for entrepreneurs, VCs and public officials. In 2015, I co-initiated LaPrimaire.org, a non-profit initiative which gathered 150.000 citizens to transparently & democratically crowdsource the best candidates for the french 2017 presidential election. Previously, I was the CEO and co-founder of Allmyapps, the 1st App Store for PC, which I sold in 2014. I hold a masters degree in Software Engineering and in Corporate Finance."
+            },
+            {
+                "name": "Joris",
+                "title": "COO",
+                "picture": "https://pbs.twimg.com/profile_images/1072493385049624579/3rvqQrej_400x400.jpg",
+                "bio": "Co-founder of Fairmint, I have 15 years of experience building & scaling companies, both as a founder & investor. From idea generation through exit, focusing on exponential innovation, I have always invested in people, sourcing, managing and scaling up to hundreds people. I hold a master's degree in International Business and am an alumnus of Singularity University."
+            }
+        ],
+        "employees": [
+            {
+                "name": "Nick",
+                "title": "Smart-contract development",
+                "picture": "https://fairmint-images.s3.amazonaws.com/pictures/nick.jpg",
+                "bio": ""
+            },
+            {
+                "name": "Javor",
+                "title": "Backend development",
+                "picture": "https://ca.slack-edge.com/TBV22AESY-UL8A1342U-f70f78304dc8-48",
+                "bio": ""
+            },
+            {
+                "name": "Robert",
+                "title": "Smart-contract development",
+                "picture": "https://fairmint-images.s3.amazonaws.com/pictures/robert.jpg",
+                "bio": ""
+            },
+            {
+                "name": "Tarj",
+                "title": "Front-end development",
+                "picture": "https://ca.slack-edge.com/TBV22AESY-UN48ENFE3-35472a31fa1f-512",
+                "bio": ""
+            },
+            {
+                "name": "Kate",
+                "title": "User interface",
+                "picture": "https://ca.slack-edge.com/TBV22AESY-UMRC7R1MK-a29cf4fe0233-512",
+                "bio": ""
+            },
+            {
+                "name": "Anna",
+                "title": "Identity design",
+                "picture": "https://ca.slack-edge.com/TBV22AESY-UMYEDLYTV-30a26928d297-48",
+                "bio": ""
+            }
+        ]
+    },
+    "story": {
+        "text": "<p>In a world where companies rely strategically on their community, aligning the financial interests of stakeholders to the success of your organization is among the biggest competitive advantage you can build. Using equity to achieve this is very difficult, if not impossible, without going public.</p><p>Fairmint offers private companies a better way to “go public” to raise funds in a non-dilutive way and to share their financial success with their users, customers, investors, contributors, contractors…</p><p>To make it possible, Fairmint developed a new financial product, called FSE, after 1 year of state-of-the-art research around continuous financing using automated market making mechanisms.</p><p>This financial mechanism is the brainchild of 2 experienced entrepreneurs, Thibauld and Joris, who have generated $100M+ in sales and hired & managed 1000+ people, and who both exited their respective previous businesses at profit.</p><p>There is a clear momentum around reinventing equity and Fairmint is ideally positioned to solve this massive managerial and societal problem with this new model.</p><p>Want to read more about this momentum?</p>",
+        "links": [
+            {
+                "title": "SEC Chairman wants big firms to go public earlier so retail investors can get in on the growth",
+                "url": "https://thibauld.com"
+            },
+            {
+                "title": "Uber and AirBnb plans to share their wealth could shake up capitalism",
+                "url": "https://thibauld.com"
+            },
+            {
+                "title": "How to make startup stock options a better deal for employees",
+                "url": "https://thibauld.com"
+            }
+        ]
+    }
+}

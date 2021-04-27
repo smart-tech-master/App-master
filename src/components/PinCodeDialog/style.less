@@ -1,0 +1,87 @@
+.pin-code-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 209, 193, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+
+  .pin-code-card {
+    width: 528px;
+    margin: 0;
+    & > .content {
+      padding: 12px 26px 36px;
+      * {
+        font-weight: 500;
+      }
+    }
+    .header {
+      padding: 15px 0px 10px 0px;
+      border-bottom: 2px solid #EEEEEE;
+      .close-icon {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+      }
+    }
+    .description-content {
+      max-width: 400px;
+      margin: auto;
+      padding-top: 20px;
+      text-align: center;
+      .ui.input {
+        padding: 40px 0px 40px 0px;
+      }
+    }
+    label { font-size: 16px; color: rgb(38, 38, 38); }
+    button {
+      height: 52px;
+      font-size: 16px;
+      font-weight: bold !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .pin-code-card {
+      width: 100%;
+      margin: 10px;
+
+      & > .content {
+        padding: 10px 20px 26px;
+
+        .header {
+          font-size: 16px !important;
+        }
+        .close-icon {
+          display: none;
+        }
+        .description-content {
+          font-size: 14px;
+        }
+        .ui.input {
+          padding: 20px 0px 30px 0px;
+          width: 100%;
+          input {
+            line-height: 1.5em !important;
+          }
+        }
+        label {
+          font-size: 14px;
+        }
+      }
+      .ui.primary.button {
+        font-size: 14px;
+        line-height: 1.6em;
+        height: auto;
+      }
+    }
+  }
+}

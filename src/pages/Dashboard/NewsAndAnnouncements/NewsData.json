@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "title" : "Continuous organizations whitepaper",
+      "body"  : "Everything you need to know about the theoretical foundations behind Fairmint.",
+      "link"  : "https://github.com/c-org/whitepaper"
+    }
+  ],
+  "videos": [
+    {
+      "title" : "Why use continuous financing",
+      "body"  : "At talk explaining continuous financing at The Family.",
+      "link"  : "https://www.youtube.com/watch?v=LHZY5p3iVyk",
+      "image" : "https://i.ibb.co/tXFBKxg/Mask-1.png"
+    }, {
+      "title" : "Reinventing going public",
+      "body"  : "A Coinfund Rabbithole talk exposing how Fairmint reinvents going public",
+      "link"  : "https://www.youtube.com/watch?v=rtYzztCpOik",
+      "image" : "https://i.ibb.co/xLQhc8w/Mask-2.png"
+    }, {
+      "title" : "Continuous financing 101",
+      "body"  : "At Aracon, the basis of continuous financing explained.",
+      "link"  : "https://www.youtube.com/watch?v=2aGERc3GoPc",
+      "image" : "https://i.ibb.co/fQ6192g/Mask-3.png"
+    }, {
+      "title" : "Continuous financing 101",
+      "body"  : "At Aracon, the basis of continuous financing explained.",
+      "link"  : "https://www.youtube.com/watch?v=2aGERc3GoPc",
+      "image" : "https://i.ibb.co/fQ6192g/Mask-3.png"
+    }
+  ]
+}

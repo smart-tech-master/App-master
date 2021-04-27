@@ -1,0 +1,311 @@
+
+.signin-page {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  height: calc(100vh + 1rem);
+  overflow: hidden;
+
+  .ui.grid > .row {
+    padding-bottom: 0;
+  }
+  .left-container {
+    padding: 8% 40px 8% 64px;
+    height: 100vh;
+    margin-right: -16px;
+    background: #00d1c1;
+    position: relative;
+    overflow: hidden;
+
+    .content {
+      width: 100%;
+      max-width: 760px;
+      .ui.header {
+        color: #fff;
+        margin: 64px 0 20px;
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 800;
+      }
+      p {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        margin-bottom: 2.5em;
+      }
+      .double-quote-icon {
+        width: 25px;
+        height: 19px;
+        position: relative;
+        top: -5px;
+        margin-right: 8px;
+      }
+      .ui.feed.large > .event > .label {
+        width: 58px;
+        height: 58px;
+        color: #fff;
+
+        & + .content {
+          margin: 0.5em 0em 0.3125em 0.725em;
+
+          .summary {
+            font-size: 16px;
+            color: #fff;
+          }
+          .date {
+            font-size: 12px;
+            color: #fff;
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+  .HYPE_document {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50% !important;
+    height: 60% !important;
+    overflow: hidden;
+    left: calc(50% + 53 / 1440 * 100% / 2);
+    bottom: calc(-31 / 900 * 100% / 2);
+    z-index: -1;
+
+    .HYPE_scene {
+      width: 100% !important;
+      height: 100% !important;
+      top: 0;
+      left: 0;
+      background-color: transparent !important;
+    }
+  }
+  .right-container {
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    max-width: 500px;
+    margin: 18% 20% 0 16%;
+    position: relative;
+    z-index: 1;
+
+    .ui.header {
+      text-align: center;
+      line-height: 36px;
+      letter-spacing: 0.5px;
+    }
+    .ui.form .field {
+      margin: 0em 0em 2em;
+      position: relative;
+
+      label {
+        color: #3D454D;
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 300;
+      }
+      input {
+        background: #F7F7F7;
+        border: 1px solid #D7D7D7;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3f3f3f;
+        font-weight: 600;
+
+        &:focus {
+          border-color: #00D1C1;
+        }
+        &.error {
+          border: solid 1px #DB3907;
+        }
+        &#password {
+          margin: 0 0 1.1em;
+        }
+      }
+      .form-info {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+      }
+    }
+    .next-btn {
+      padding: 1em 0;
+      margin: 2em 0 1em;
+    }
+    .other-link-container {
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #3D454D;
+      margin-top: 2em;
+      display: -webkit-box;
+      display: flex;
+      justify-content: space-between;
+      a {
+        color: #00D1c1;
+        font-weight: 600;
+        font-size: 12px;
+      }
+      span.link {
+        color: #00D1c1;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+  .features {
+    margin-top: 1em;
+    .feature {
+      padding: 10px !important;
+      width: 33% !important;
+      min-width: 200px !important;
+      display: -webkit-box;
+      display: flex !important;
+      flex-direction: column;
+      align-items: flex-start;
+
+      img.ui.image {
+        width: 76px;
+        margin-bottom: 24px;
+      }
+      .title {
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        color: #fff;
+        font-weight: 600;
+      }
+      .desc {
+        font-size: 16px;
+        line-height: 28px;
+        color: #fff;
+        text-align: left;
+      }
+    }
+  }
+
+  @media (min-width: 1221px) and (max-width: 1440px) {
+    .left-container {
+      .content {
+        .ui.header {
+          font-size: 28px;
+          line-height: 40px;
+        }
+        p {
+          color: #fff;
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+    .features {
+      .row {
+        justify-content: space-between;
+      }
+      .feature {
+        padding: 10px !important;
+        min-width: 170px !important;
+        img.ui.image {
+          width: 60px;
+          margin-bottom: 20px;
+        }
+        .title {
+          font-size: 19px;
+          line-height: 34px;
+          letter-spacing: 0.5px;
+          color: #fff;
+          font-weight: 600;
+        }
+        .desc {
+          font-size: 15px;
+          line-height: 24px;
+          color: #fff;
+          text-align: left;
+        }
+      }
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1220px) {
+    .left-container {
+      padding: 15% 30px 15% 40px;
+      .content {
+        width: auto;
+        .ui.header {
+          font-size: 28px;
+          line-height: 40px;
+          margin: 44px 0 20px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+    .right-container {
+      margin: 30% 20% 0 16%;
+    }
+    .features {
+      .feature {
+        padding: 0.6em 5px !important;
+        min-width: 150px !important;
+
+        img.ui.image {
+          width: 56px;
+          margin-bottom: 18px;
+        }
+        .title {
+          font-size: 18px;
+          line-height: 32px;
+          letter-spacing: 0.5px;
+          color: #fff;
+        }
+        .desc {
+          font-size: 13px;
+          line-height: 24px;
+          color: #fff;
+          text-align: left;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    height: 100vh;
+    margin: 0 !important;
+
+    & > .row {
+      flex-direction: column !important;
+    }
+
+    .mobile-signup-header {
+      margin: 70px 0 50px;
+      img {
+        margin: auto;
+      }
+    }
+    .right-container {
+      margin: 0 20px;
+      .ui.header {
+        margin-bottom: 3em;
+      }
+    }
+    .other-link-container {
+      flex-direction: column;
+
+      & > div {
+        margin-bottom: 1.5em;
+      }
+    }
+    &.page-div {
+      overflow: hidden;
+      padding-bottom: 30px;
+    }
+  }
+}
